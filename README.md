@@ -19,36 +19,6 @@ SSVEP (Steady-State Visual Evoked Potential) is a natural response to visual sti
 - **Visual feedback**: Clear frequency display and state indication
 - **User-friendly interface**: Intuitive sliders and controls
 
-## Installation
-
-### Using Poetry (Recommended)
-
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd SSVEP
-
-# Install dependencies with Poetry
-poetry install
-
-# Run the application
-poetry run python ssvep_stimulator.py
-```
-
-### Using pip
-
-```bash
-# Clone the repository
-git clone <your-repo-url>
-cd SSVEP
-
-# Install dependencies
-pip install -r requirements.txt
-
-# Run the application
-python ssvep_stimulator.py
-```
-
 ## Requirements
 
 - Python >= 3.13
