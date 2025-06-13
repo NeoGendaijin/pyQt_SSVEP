@@ -102,38 +102,3 @@ SSVEP/
 ├── requirements.txt      # Pip requirements
 └── README.md            # This file
 ```
-
-### Contributing
-
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## Citation
-
-If you use this software in your research, please cite:
-
-```bibtex
-@software{ssvep_stimulator,
-  title={SSVEP Visual Stimulator},
-  author={NeoGendaijin},
-  year={2024},
-  url={<your-repo-url>}
-}
-```
-
-## Acknowledgments
-
-- Built with PyQt5
-- Inspired by neuroscience research community needs
-- Designed for BCI and cognitive research applications
-
-## Support
-
-For questions, issues, or contributions, please open an issue on the GitHub repository.
