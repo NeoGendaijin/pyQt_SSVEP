@@ -1,0 +1,28 @@
+[project]
+name = "ssvep"
+version = "0.1.0"
+description = "A PyQt5-based application for generating Steady-State Visual Evoked Potential (SSVEP) stimuli for neuroscience research and brain-computer interface applications."
+authors = [
+    {name = "NeoGendaijin", email = "aming4mit@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "pyqt5>=5.15.11,<6.0.0"
+]
+keywords = ["ssvep", "neuroscience", "bci", "brain-computer-interface", "visual-stimuli", "pyqt5"]
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.13",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Medical Science Apps."
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
